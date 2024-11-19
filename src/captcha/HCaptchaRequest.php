@@ -2,6 +2,7 @@
 
 namespace luiserp\CapmonstercloudClientPhp\captcha;
 
+use luiserp\CapmonstercloudClientPhp\CaptchaRequest;
 class HCaptchaRequest extends CaptchaRequest {
 
     public function __construct(
