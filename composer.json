@@ -1,5 +1,5 @@
 {
-    "name": "luiserp/capmonstercloud.client",
+    "name": "luiserp/capmonstercloud-client-php",
     "description": "API client for capmonster.cloud",
     "require-dev": {
         "phpunit/phpunit": "*"
