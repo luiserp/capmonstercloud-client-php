@@ -1,7 +1,6 @@
 <?php
 
-include_once './client/src/CaptchaRequest.php';
-
+namespace luiserp\CapmonstercloudClientPhp\captcha;
 
 class RecaptchaV2Request extends CaptchaRequest {
 

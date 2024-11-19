@@ -1,5 +1,7 @@
 <?php
 
+namespace luiserp\CapmonstercloudClientPhp;
+
 class Result {
 
     public $result;

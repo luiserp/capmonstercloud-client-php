@@ -1,6 +1,8 @@
 <?php
 
-include_once "./client/src/Result.php";
+namespace luiserp\CapmonstercloudClientPhp;
+
+use Exception;
 
 class Networker {
 

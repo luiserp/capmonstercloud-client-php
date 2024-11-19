@@ -1,16 +1,17 @@
 <?php
 
-include_once './client/src/CaptchaRequest.php';
+namespace luiserp\CapmonstercloudClientPhp\captcha;
 
+use luiserp\CapmonstercloudClientPhp\CaptchaRequest;
 
-class HCaptchaRequest extends CaptchaRequest {
+class FunCaptchaRequest extends CaptchaRequest {
 
     public function __construct(
         string $websiteURL,
-        string $websiteKey,
-        bool $isInvisible=null,
+        string $websitePublicKey,
+        string $userAgent,
+        string $funcaptchaApiJSSubdomain=null,
         string $data=null,
-        string $userAgent=null,
         string $cookies=null,
         string $proxyType = null,
         string $proxyAddress = null,
@@ -20,10 +21,10 @@ class HCaptchaRequest extends CaptchaRequest {
     ) {
         $options = $this->clearInput([
             "websiteURL" => $websiteURL,
-            "websiteKey" => $websiteKey,
-            "isInvisible" => $isInvisible,
-            "data" => $data,
+            "websitePublicKey" => $websitePublicKey,
             "userAgent" => $userAgent,
+            "funcaptchaApiJSSubdomain" => $funcaptchaApiJSSubdomain,
+            "data" => $data,
             "cookies" => $cookies,
             "proxyType" => $proxyType,
             "proxyAddress" => $proxyAddress,
@@ -31,7 +32,7 @@ class HCaptchaRequest extends CaptchaRequest {
             "proxyLogin" => $proxyLogin,
             "proxyPassword" => $proxyPassword,
         ]);
-        CaptchaRequest::__construct($this->detectProxy($options, "HCaptchaTask", "HCaptchaTaskProxyless"), $options);
+        CaptchaRequest::__construct($this->detectProxy($options, "FunCaptchaTask", "FunCaptchaTaskProxyless"), $options);
     }
 
 }

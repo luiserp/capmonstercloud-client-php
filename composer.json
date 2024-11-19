@@ -1,7 +1,17 @@
 {
-    "name": "luiserp/capmonstercloud-client-php",
-    "description": "API client for capmonster.cloud",
-    "require-dev": {
-        "phpunit/phpunit": "*"
+  "name": "luiserp/capmonstercloud-client-php",
+  "description": "API client for capmonster",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "luiserp\\CapmonstercloudClientPhp\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "luiserp",
+      "email": "luis@taxo.co"
+    }
+  ],
+  "require": {}
 }

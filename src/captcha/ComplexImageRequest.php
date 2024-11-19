@@ -1,6 +1,8 @@
 <?php
 
-include_once './client/src/CaptchaRequest.php';
+namespace luiserp\CapmonstercloudClientPhp\captcha;
+
+use luiserp\CapmonstercloudClientPhp\CaptchaRequest;
 
 class ComplexImageRequest extends CaptchaRequest
 {

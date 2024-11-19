@@ -1,5 +1,7 @@
 <?php
 
+namespace luiserp\CapmonstercloudClientPhp;
+
 class Timeouts {
 
     public static $recaptchaV2Timeouts = [

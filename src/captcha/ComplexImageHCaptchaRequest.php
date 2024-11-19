@@ -1,11 +1,10 @@
 <?php
 
-include_once './client/src/captcha/ComplexImage.php';
+namespace luiserp\CapmonstercloudClientPhp\captcha;
 
-class ComplexImageRecaptchaRequest extends ComplexImageRequest
+class ComplexImageHCaptchaRequest extends ComplexImageRequest
 {
-    public $_class = 'recaptcha';
-
+    public $_class = 'hcaptcha';
     public function __construct(
         array $metadata,
         array $imageUrls = [],

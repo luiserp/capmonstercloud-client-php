@@ -1,9 +1,8 @@
 <?php
 
-include_once './client/src/Networker.php';
-include_once './client/src/CaptchaRequest.php';
-include_once './client/src/Result.php';
-include_once './client/src/Timeouts.php';
+namespace luiserp\CapmonstercloudClientPhp;
+
+use Exception;
 
 class Client extends Networker {
 
