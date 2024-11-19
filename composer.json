@@ -13,5 +13,6 @@
       "email": "luis@taxo.co"
     }
   ],
-  "require": {}
+  "require": {},
+  "license": "MIT"
 }
