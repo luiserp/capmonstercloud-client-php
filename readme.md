@@ -1,4 +1,5 @@
 # PHP Client Library for Zennolab.CapMonster API (Forked)
+This project is a **fork** of the original CapMonster client library for PHP. The primary modification made in this fork is the addition of **PSR-4 autoloading** to improve usability and compatibility with modern PHP projects. All classes are now namespaced, and the project can be easily integrated using Composer.
 
 ## Installation
 
